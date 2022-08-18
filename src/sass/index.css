@@ -1,0 +1,76 @@
+@import '~node_modules/modern-normalize/modern-normalize.css';
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  width: 100vw;
+  margin: 0;
+  font-family: roboto, sans-serif;
+  color: #212121;
+  background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(23, 24, 33, 0.4)), url(../images/bcgMain.jpg);
+  background-color: #c4c4c4;
+  background-size: cover;
+}
+body.modal-open {
+  overflow: hidden;
+}
+
+ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+h1,
+h2,
+h3,
+p {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+textarea {
+  resize: none;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: 15px;
+  padding-left: 15px;
+  background-color: skyblue;
+  width: 1200px;
+}
+
+.section {
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.header {
+  background-color: green;
+}
+
+.nav__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin: -15px;
+}
+
+.nav__item {
+  margin: 15px;
+  background-color: brown;
+}/*# sourceMappingURL=index.css.map */
