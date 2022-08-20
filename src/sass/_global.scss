@@ -15,6 +15,7 @@ body {
             url(../images/bcgMain.jpg);
     background-color: #c4c4c4;
     background-size: cover;
+    background-attachment: fixed;
 
     &.modal-open {
         overflow: hidden;
@@ -46,4 +47,12 @@ img {
 
 textarea {
     resize: none;
+}
+
+.wrapper{
+    overflow: hidden;
+    display: flex;
+    flex-direction: column;
+    min-height: 100%;
+    flex: 1 1 auto;
 }

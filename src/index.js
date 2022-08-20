@@ -1,3 +1,4 @@
-import './js/newsApiService';
-import './js/renderNews';
-import './js/searchNews';
+import './js/apiService';
+import './js/renderImg';
+import './js/searchImg';
+import './js/mainPage';

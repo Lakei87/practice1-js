@@ -1,0 +1,38 @@
+.gallery {
+    display: flex;
+    flex-wrap: wrap;
+    margin: -15px;
+    justify-content: center;
+}
+
+.gallery__item {
+    margin: 15px;
+    height: 250px;
+    width: 250px;
+    box-shadow: 5px 5px 10px 2px rgba(black, 0.3);
+}
+
+.moveUpBtn {
+    opacity: 1;
+    position: fixed;
+    transform: translate(0, 0);
+    bottom: 15px;
+    right: 15px;
+    width: 40px;
+    height: 40px;
+    padding: 0;
+    border-radius: 50%;
+    background-color: lightcyan;
+    border: 1px solid transparent;
+    transition: background-color .3s ease-in, transform 0.3s ease-in, opacity 0.3s ease-in;
+    cursor: pointer;
+}
+
+.moveUpBtn:hover {
+    background-color: lightblue;
+}   
+
+.moveUpBtn.is-hidden {
+    opacity: 0;
+    transform: translate(0, 100%);
+}

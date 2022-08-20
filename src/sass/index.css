@@ -13,6 +13,7 @@ body {
   background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), rgba(23, 24, 33, 0.4)), url(../images/bcgMain.jpg);
   background-color: #c4c4c4;
   background-size: cover;
+  background-attachment: fixed;
 }
 body.modal-open {
   overflow: hidden;
@@ -73,4 +74,29 @@ textarea {
 .nav__item {
   margin: 15px;
   background-color: brown;
+  cursor: pointer;
+}
+
+.news__item {
+  display: flex;
+  align-items: flex-start;
+  overflow: hidden;
+}
+
+.news__item:not(:last-child) {
+  margin-bottom: 20px;
+}
+
+.news__link {
+  margin-right: 20px;
+}
+
+.news__image {
+  max-width: 300px;
+  -o-object-fit: contain;
+     object-fit: contain;
+}
+
+.news__inner {
+  flex-grow: 2;
 }/*# sourceMappingURL=index.css.map */
